@@ -27,12 +27,12 @@ A CalendarApi é uma API desenvolvida para fornecer dados estruturados de calend
 - **GET /calendar/currentWeek**  
 *Retorna a semana corrente, o índice referente ao dia atual e informações básicas do calendário.*
 
+- **GET /calendar/{year}/{month}**  
+*Retorna o calendário completo de qualquer mês e ano informado.*
+
 ## 📈 Possíveis Endpoints Futuros
 
 A CalendarApi ainda pode evoluir com novas rotas e funcionalidades. Algumas ideias de endpoints futuros:
-
-- **GET /calendar/{year}/{month}**  
-*Retorna o calendário completo de qualquer mês e ano informado.*
 
 - **GET /calendar/holidays**  
 *Retorna feriados nacionais/regionais (permitindo futura integração com APIs externas).*
