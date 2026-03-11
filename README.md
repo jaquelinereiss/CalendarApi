@@ -7,7 +7,7 @@ A CalendarApi é uma API desenvolvida para fornecer dados estruturados de calend
 - Node.js  
 - Express  
 - CORS  
-- JavaScript/TypeScript  
+- TypeScript  
 - Estrutura modular básica (routes, utils)
 
 *Tecnologias planejadas para uso futuro:*
@@ -36,6 +36,22 @@ A CalendarApi ainda pode evoluir com novas rotas e funcionalidades. Algumas idei
 
 - **GET /calendar/holidays**  
 *Retorna feriados nacionais/regionais (permitindo futura integração com APIs externas).*
+
+## 🌐 API Online
+
+A API está hospedada na plataforma **Render** e pode ser acessada publicamente.
+
+**Base URL**
+
+```
+https://calendarapi-vns7.onrender.com
+```
+
+**API Check**
+
+```
+GET https://calendarapi-vns7.onrender.com/calendar/currentWeek
+```
 
 ## 👩‍💻 Autora
 
